@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# HomeStyler
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+HomeStyler is a React-based web application for exploring interior design styles, browsing designer galleries, viewing products, and sharing feedback. The project leverages [Create React App](https://github.com/facebook/create-react-app) and integrates Bootstrap for responsive UI components.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Design Style Viewer:** Browse and filter interior design styles by category and trend.
+- **Gallery:** Explore a curated gallery of designers and their notable works.
+- **Products:** View and review home decor products.
+- **Feedback:** Submit feedback directly through a styled form.
+- **Philosophy & Mission:** Learn about the design philosophy and mission of HomeStyler.
+- **Contact:** Contact form for inquiries.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Routing:** Client-side routing with React Router.
 
-### `npm start`
+## Project Structure
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```
+src/
+  ├── COMPONENT/
+  │     ├── About.jsx
+  │     ├── Contact.jsx
+  │     ├── DesignStyleViewer.jsx
+  │     ├── DesignStyleViewer.module.css
+  │     ├── Feedback.jsx
+  │     ├── Feedback.module.css
+  │     ├── Footer.jsx
+  │     ├── Footer.module.css
+  │     ├── Gallery.jsx
+  │     ├── Gallerydata.js
+  │     ├── Header.jsx
+  │     ├── Mission.jsx
+  │     ├── Mission.css
+  │     ├── Philosophy.jsx
+  │     ├── Philosophy.module.css
+  │     ├── Products.jsx
+  │     └── SiteMap.jsx
+  ├── App.js
+  ├── App.css
+  └── index.js
+public/
+  ├── index.html
+  └── img/
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Getting Started
 
-### `npm test`
+### Prerequisites
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Node.js (v14 or newer recommended)
+- npm
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone the repository:
+   ```sh
+   git clone <your-repo-url>
+   cd Homestyler
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Install dependencies:
+   ```sh
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Start the development server:
+   ```sh
+   npm start
+   ```
+   Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### `npm run eject`
+### Available Scripts
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- `npm start` – Runs the app in development mode.
+- `npm test` – Launches the test runner.
+- `npm run build` – Builds the app for production.
+- `npm run eject` – Ejects the app for full configuration control (irreversible).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [React](https://reactjs.org/)
+- [React Router](https://reactrouter.com/)
+- [Bootstrap 5](https://getbootstrap.com/)
+- CSS Modules for component-level styling
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Customization
+
+- **Styling:** Custom styles are in `.module.css` files for each component.
+- **Images:** Place your images in `public/img/` and reference them as needed.
+- **Fonts:** Uses [Kaushan Script](https://fonts.google.com/specimen/Kaushan+Script) for headings.
+
+## Deployment
+
+To build for production:
+```sh
+npm run build
+```
+The optimized build will be in the `build/` folder.
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Create React App Documentation](https://facebook.github.io/create-react-app/docs/getting-started)
+- [React Documentation](https://reactjs.org/)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+© 2025 HomeStyler.
