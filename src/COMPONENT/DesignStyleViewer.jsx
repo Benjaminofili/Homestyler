@@ -191,6 +191,7 @@ const DesignStyleViewer = () => {
           />
         </form> */}
 
+
       {/* Display Designs */}
       <div className={styles.designGrid}>
         {filteredDesigns.length > 0 ? (
